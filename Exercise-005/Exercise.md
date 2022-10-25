@@ -16,4 +16,5 @@
 <li> git log </li>
 </ul>
 
-![Screenshot](./Images/Screenshot%20(18).png "screenshot of git config -l")
+![Screenshot](./Images/Screenshot%20(19).png "screenshot of git config -l")
+![Screenshot](./Images/Screenshot%20(20).png "|screen of git remote -v ans git log")
