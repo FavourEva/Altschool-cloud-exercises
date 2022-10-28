@@ -11,5 +11,5 @@
 </ul>
 
 
-![Screenshot](./Images/Screenshot%20(12).png "content of php -v")
+![Screenshot](./Images/Screenshot%20(12).png " the content of php -v")
 ![Screenshot](./Images/Screenshot%20(13).png "content of /etc/apt/source.list" )
