@@ -5,6 +5,6 @@
 ## Instruction:
 ### Submit the content of your script, cronjob and a sample of the email sent, all in the folder for this exercise. 
 
-![Screenshot](./Images/Screenshot%20(20).png "Screenshot of the content of my cronjob")
+![Screenshot](./Images/Screenshot%20(26).png "Screenshot of the content of my cronjob")
 
-![Screenshot](./Images/Screenshot%20(19).png "Screenshotof the content of my script")
+![Screenshot](./Images/Screenshot%20(25).png "Screenshotof the content of my script")
