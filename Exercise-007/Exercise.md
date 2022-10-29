@@ -8,3 +8,9 @@
 ![Screenshot](./Images/Screenshot%20(26).png "Screenshot of the content of my cronjob")
 
 ![Screenshot](./Images/Screenshot%20(25).png "Screenshotof the content of my script")
+
+![Screenshot](./Images/Screenshot%20(29).png "a sample of email sent")
+
+![Screenshot](./Images/Screenshot%20(27).png "attached file showing bash running hourly")
+
+![Screenshot](./Images/Screenshot%20(28).png "attached file showing bash running hourly")
