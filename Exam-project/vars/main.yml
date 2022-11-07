@@ -1,0 +1,8 @@
+mysql_root_password: "oroma123"
+mysql_databases:
+  - name: laravel
+mysql_users:
+  - name: laravel
+    host: "%"
+    password: oroma123
+    priv: "laravel.*:ALL"
