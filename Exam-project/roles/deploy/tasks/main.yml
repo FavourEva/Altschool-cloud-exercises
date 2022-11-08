@@ -1,3 +1,4 @@
+---
 # tasks file for deploy
 
 - name: Set up .env file
@@ -22,6 +23,6 @@
   tags: [ 'laravel', 'artisan:storage' ]
 
 - name: Run Migrations + Seeders
-  command: "php {{ remote_www_root }}/{{ app_root_dir }}/artisan db:seed --class=CustomSeeder --force"
-#   prompt: " Do you really wish to run this command? (yes/no) [no]:?"
-#   private: yes
+  command: "/usr/bin/php {{ remote_www_root }}/{{ app_root_dir }}/artisan migrate:refresh --force"
+  tags: [ 'laravel', 'artisan:migrate' ]
+
