@@ -9,6 +9,7 @@
 - name: Installing Laravel dependencies
   command: composer install --no-interaction --working-dir=/var/www/laravel-realworld-example-app
   become: false
+  ignore_errors: yes
 
 - name: Generate app key
   command: "/usr/bin/php {{ remote_www_root }}/{{ app_root_dir }}/artisan key:generate"
@@ -21,3 +22,5 @@
 - name: Run Migrations + Seeders
   command: "/usr/bin/php {{ remote_www_root }}/{{ app_root_dir }}/artisan migrate --seed --force"
   tags: [ 'laravel', 'artisan:migrate' ]
+  ignore_errors: yes
+
